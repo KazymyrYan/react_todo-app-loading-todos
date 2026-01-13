@@ -66,7 +66,6 @@ Filter todos by status `All` / `Active` / `Completed`:
 - all todos should be visible by default
 - use the `selected` class to highlight a selected link;
 
-
 ## Common Instructions
 - Install Prettier Extention and use this [VSCode settings](https://mate-academy.github.io/fe-program/tools/vscode/settings.json) to enable format on save.
 - Implement a solution following the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline).
