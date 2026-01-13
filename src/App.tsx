@@ -13,7 +13,6 @@ export const App: React.FC = () => {
   const newTodoRef = useRef<HTMLInputElement>(null);
 
   const [filter, setFilter] = useState<'all' | 'active' | 'completed'>('all');
-
   const visibleTodos = todos.filter(todo => {
     if (filter === 'active') {
       return !todo.completed;
