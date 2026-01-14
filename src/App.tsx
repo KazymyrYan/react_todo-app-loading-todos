@@ -86,15 +86,8 @@ export const App: React.FC = () => {
           </form>
         </header>
 
-        {/* {(isLoading || todos.length > 0) && ( */}
         <section className="todoapp__main" data-cy="TodoList">
           {/* This is a completed todo */}
-          {/* {isLoading && <div className="loader" data-cy="TodoLoader"></div>} */}
-          <div
-            data-cy="TodoLoader"
-            className={`loader ${isLoading ? '' : 'hidden'}`}
-          ></div>
-
           {!isLoading &&
             visibleTodos.map(todo => (
               <div
